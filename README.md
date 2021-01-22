@@ -14,10 +14,8 @@
 * Markdown
 
 ## Description
-
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
-
-### Specs
+This application will take an input from a number, then loop from 0 to the inputted number. Replacing certain predetermined numbers with certain phrases.
+## Specs
 
 
 

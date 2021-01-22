@@ -2,7 +2,7 @@ $(document).ready(function() {
   $("form#form-one").submit(function(event) {
     event.preventDefault();
     $("#answer").empty();
-    
+
     let userNumber = $("input#user-number").val();
 
     let emptyArray = [];
@@ -12,9 +12,9 @@ $(document).ready(function() {
       if (i.indexOf('3') > -1) {
         emptyArray.push("Won't you be my neighbor?");
       } else if (i.indexOf('2') > -1) {
-          emptyArray.push("Boop");
+          emptyArray.push("Boop!");
       } else if (i.indexOf('1') > -1) {
-          emptyArray.push("Beep");
+          emptyArray.push("Beep!");
       } else {
           emptyArray.push(i);
       }
