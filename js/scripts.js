@@ -7,9 +7,10 @@ let userArray = userNumber.split('');
 let result = userArray.map(index=>Number(index));
 
 console.log(result);
+console.log(parseInt(userNumber));
 
-  // for (let [i] = 0; [i] <= userNumber; [i]++) {
-  //   if ([i] )
-  // }
+  for (let [i] = 0; [i] <= parseInt(userNumber); [i]++) {
+    if ([i] )
+  }
 });
 });
