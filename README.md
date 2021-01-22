@@ -34,6 +34,12 @@ Test: "It should return an array with Boop! if the number 2 is inputted"
 
 Expect(beepBoop(0).toEqual("Boop!"));
 
+SPEC 4 - Describe beepBoop()
+
+Test: "It should return an array with "Won't you be my neighbor?" if the number 3 is inputted"
+
+Expect(beepBoop(0).toEqual("Won't you be my neighbor?"));
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
