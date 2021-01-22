@@ -3,9 +3,10 @@ $(document).ready(function() {
     event.preventDefault();
 
 let userNumber = $("input#user-number").val();
-let userArray = (userNumber.split('');
+let userArray = userNumber.split('');
+let result = userArray.map(index=>Number(index));
 
-console.log(userArray);
+console.log(result);
 
   // for (let [i] = 0; [i] <= userNumber; [i]++) {
   //   if ([i] )
