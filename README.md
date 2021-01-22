@@ -22,13 +22,13 @@ Test: "It should return an array with a 0 if the number 0 is inputted"
 
 Expect(beepBoop(0).toEqual([0]);
 
-<!-- SPEC 2 - Describe: beepBoop()
+SPEC 2 - Describe: beepBoop()
 
 Test: "It should return an array with a Beep! if the number 1 is inputted"
 
 Expect(beepBoop(1).toEqual("Beep!"));
 
-SPEC 3 - Describe: beepBoop()
+<!-- SPEC 3 - Describe: beepBoop()
 
 Test: "It should return an array with Boop! if the number 2 is inputted"
 
@@ -50,7 +50,7 @@ SPEC 6 - Describe beepBoop()
 
 Test: "It should return an array with "Boop!" If the number 2 value is in the number at all, even if there are also the numbers 1."
 
-Expect(beepBoop(12).toEqual("Boop!")) -->
+Expect(beepBoop(12).toEqual("Boop!")) --> -->
 
 ## Setup/Installation Requirements
 
