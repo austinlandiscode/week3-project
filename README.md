@@ -16,8 +16,41 @@
 ## Description
 This application will take an input from a number, then loop from 0 to the inputted number. Replacing certain predetermined numbers with certain phrases.
 ## Specs
+SPEC 1 - Describe: beepBoop()
 
+Test: "It should return an array with a 0 if the number 0 is inputted"
 
+Expect(beepBoop(0).toEqual([0]);
+
+<!-- SPEC 2 - Describe: beepBoop()
+
+Test: "It should return an array with a Beep! if the number 1 is inputted"
+
+Expect(beepBoop(1).toEqual("Beep!"));
+
+SPEC 3 - Describe: beepBoop()
+
+Test: "It should return an array with Boop! if the number 2 is inputted"
+
+Expect(beepBoop(0).toEqual("Boop!"));
+
+SPEC 4 - Describe beepBoop()
+
+Test: "It should return an array with "Won't you be my neighbor?" if the number 3 is inputted"
+
+Expect(beepBoop(0).toEqual("Won't you be my neighbor?"));
+
+SPEC 5 - Describe beepBoop()
+
+Test: "It should return an array with "Won't you be my neighbor?" If the number 3 value is in the number at all, even if there are also the numbers 2 & 1."
+
+Expect(beepBoop(123).toEqual("Won't you be my neighbor?"))
+
+SPEC 6 - Describe beepBoop()
+
+Test: "It should return an array with "Boop!" If the number 2 value is in the number at all, even if there are also the numbers 1."
+
+Expect(beepBoop(12).toEqual("Boop!")) -->
 
 ## Setup/Installation Requirements
 
