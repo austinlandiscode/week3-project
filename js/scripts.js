@@ -4,6 +4,8 @@ $(document).ready(function() {
     $("#answer").empty();
 
     let userNumber = $("input#user-number").val();
+    
+    $("#counts").text(userNumber);
 
     let emptyArray = [];
 
