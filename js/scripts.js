@@ -1,10 +1,9 @@
 $(document).ready(function() {
   $("form#form-one").submit(function(event) {
     event.preventDefault();
-
+    $("#answer").empty();
+    
     let userNumber = $("input#user-number").val();
-    let userArray = userNumber.split('');
-    let result = userArray.map(index=>Number(index));
 
     let emptyArray = [];
 
@@ -21,5 +20,9 @@ $(document).ready(function() {
       }
     }
     console.log(emptyArray);
+
+    emptyArray.forEach(function(element) {
+      $("#answer").append(`<li>${element}</li>`);
+    });
   });
 });
