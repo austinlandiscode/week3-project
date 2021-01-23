@@ -20,6 +20,7 @@ footer {
 
 .card {
   display: none;
+  padding-bottom: 60px;
 }
 
 .jumbotron {
