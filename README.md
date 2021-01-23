@@ -61,9 +61,6 @@ Download ZIP.
 * To view in browser, copy path of index.html into your preferred browser.
 * Commands could also be performed in a terminal.
 
-OR
-* Go to 
-
 
 ## Known Bugs
 
